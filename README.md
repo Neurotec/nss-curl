@@ -36,7 +36,7 @@ Edit **/etc/nsswitch.conf** and add service **curl**, to:
 ~~~php
 switch($_GET["index"])
 {
-case "localhost:
+case "localhost":
  echo "127.0.0.1"; 
 default:
  header( 'HTTP/1.1 400 BAD REQUEST' );
